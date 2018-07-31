@@ -14,10 +14,10 @@ Give component proper props.
 ```jsx
 <TypingText text="" speed="" delay="" startDelay=""/>
 ```
-**text** can be one sentence(string) or array with sentences(string) on each position.  
-**speed** takes numbers and defines spead in weach the letters are typed.  
-**delay** is for pausing sentence.  
-**startDelay** is for pausing array of sentences.
+**text** can be one sentence(string) or array with sentences(strings) on each position.  
+**speed** takes numbers and defines spead in which the letters are typed in ms.  
+**delay** takes numbers and is for pausing sentence in ms.  
+**startDelay** takes numbers and is for pausing array of sentences in ms.
 
 # Created
 [By me - dyminki](https://github.com/dyminki)
