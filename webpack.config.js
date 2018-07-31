@@ -9,7 +9,7 @@ module.exports = function(env) {
   console.log(isDev, 'isDev');
 
   const config = {
-    entry: "./js/app.jsx",
+    entry: ["babel-polyfill", "./js/main.jsx"],
     output: {
       filename: "out.js",
       path: path.resolve(__dirname, "docs")
