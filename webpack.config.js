@@ -15,6 +15,17 @@ module.exports = function(env) {
       path: path.resolve(__dirname, "docs")
     },
     mode: isDev ? 'development' : 'production',
+    .babelrc
+    {
+      "presets": [[
+        "env",
+        {
+          "targets": {
+            "node": "4"
+          }
+        }
+      ]]
+    },
     module: {
       rules: [
         {
