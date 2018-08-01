@@ -16,7 +16,8 @@
   "scripts": {
     "test": "./node_modules/jest-cli/bin/jest.js",
     "build": "webpack",
-    "start": "webpack-dev-server --env.dev --inline --hot"
+    "start": "webpack-dev-server --env.dev --inline --hot",
+    "createdoc": "jsdoc js -r -d jsdoc"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +33,7 @@
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
+    "jsdoc": "^3.5.5",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
