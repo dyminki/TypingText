@@ -2,11 +2,15 @@ import React from 'react';
 import { shallow, mount, render } from 'enzyme';
 import { TypingText } from '../components/TypingText.jsx';
 
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
 
 describe('<TextTyper />', () => {
     it('renders one Div element', () => {
       const wrapper = shallow(<TypingText text="text"/>);
-      expect(wrapper.find('div')).to.have.length(1);
+      expect(wrapper.find('div')).toMatchSnapshot();
     });
   
     it('have correct props', () => {
