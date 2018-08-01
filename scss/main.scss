@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+
+:root {
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'Londrina Outline', cursive;
+    background-color: #fdfdfd;
+    color: #4c4c4c;
+    margin: 10% auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media all and (min-width:1650px) {
+    body{
+        font-size: 3em;
+    }
+    
+}
+
+@media all and (min-width:5000px) {
+    body{
+        font-size: 6em;
+    }
+    
+}

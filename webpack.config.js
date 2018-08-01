@@ -9,12 +9,23 @@ module.exports = function(env) {
   console.log(isDev, 'isDev');
 
   const config = {
-    entry: "./js/main.jsx",
+    entry: ["babel-polyfill", "./js/main.jsx"],
     output: {
       filename: "out.js",
       path: path.resolve(__dirname, "docs")
     },
     mode: isDev ? 'development' : 'production',
+    .babelrc
+    {
+      "presets": [[
+        "env",
+        {
+          "targets": {
+            "node": "4"
+          }
+        }
+      ]]
+    },
     module: {
       rules: [
         {
