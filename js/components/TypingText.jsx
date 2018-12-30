@@ -1,5 +1,5 @@
 /**
- * @author Barbara Sadowska <barbara.sadowska@hotmail.com> dyminki
+ * @author dyminki
  */
 import React from 'react';
 /** TypingText Component */
