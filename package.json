@@ -20,8 +20,8 @@
     "createdoc": "jsdoc js -r -d jsdoc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "dyminki",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.0.2",
     "babel-core": "^6.26.3",

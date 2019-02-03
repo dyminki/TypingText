@@ -5,8 +5,7 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = function(env) {
   const isDev = env && env.dev ? true : false;
-  console.log(isDev, "isDev");
-
+  
   const config = {
     entry: "./js/main.jsx",
     output: {
