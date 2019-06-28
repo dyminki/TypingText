@@ -1,20 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Londrina+Outline);
 :root {
   font-size: 2rem; }
 
 body {
-  font-family: 'Londrina Outline', cursive;
-  background-color: #fdfdfd;
-  color: #4c4c4c;
+  font-family: "Londrina Outline", sans-serif !important;
+  font-weight: normal;
+  background: #f7f7f7;
+  color: #f7f7f7;
   margin: 10% auto;
   text-align: center;
   font-size: 2em; }
 
-@media all and (min-width: 1650px) {
-  body {
-    font-size: 3em; } }
+.box {
+  height: 500px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 320px;
+  margin: 0 auto;
+  border-radius: 5%;
+  background-color: #c7c7c7;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.17); }
 
-@media all and (min-width: 5000px) {
+@media all and (max-width: 800px) {
   body {
-    font-size: 6em; } }
+    font-size: 1.5em; } }
 
