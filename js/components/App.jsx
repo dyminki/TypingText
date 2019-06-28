@@ -12,13 +12,17 @@ class App extends React.Component {
     ];
     return (
       <div className="box">
-        <TypingText text="Hey! I can type myself! Do You like it?" speed="90" />
-        <TypingText
+        <div>
+          <TypingText text="Hey! I can type myself! Do You like it?" speed="90" />
+        </div>
+        <div className="second-text">
+          <TypingText
           text={manyLines}
           speed="90"
           delay="1000"
           startDelay="3200"
-        />
+          />
+        </div>
       </div>
     );
   }

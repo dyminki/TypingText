@@ -3,30 +3,39 @@
 }
 
 body {
-  font-family: 'Staatliches', sans-serif !important;
+  font-family: 'Staatliches', cursive;
   font-weight: normal;
   background: #f7f7f7;
-  color: #888888;
+  color: #6e839a;
   margin: 10% auto;
   text-align: center;
   font-size: 2em;
 }
 
 .box {
-  height: 500px;
-  width:100%;
-  max-width:500px;
+  height: 400px;
+  width: 100%;
+  max-width: 560px;
   min-width: 320px;
   margin: 0 auto;
   border-radius: 5%;
-  background-color: #ffffff;
+  background-color: #fbfbfb;
   -webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.17);
   -moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.17);
   box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.17);
 }
 
+.second-text {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
 @media all and (max-width: 800px) {
   body {
     font-size: 1.5em;
+  }
+  .box {
+    height: 380px;
   }
 }
