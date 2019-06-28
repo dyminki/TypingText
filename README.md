@@ -27,4 +27,4 @@ Give component proper props.
 
 # Screenshoot
 
-![Image](https://github.com/dyminki/MemoryGame/blob/master/inf.png)
+![Image](https://github.com/dyminki/TypingText/blob/master/inf.png)
