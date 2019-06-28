@@ -11,7 +11,7 @@ class App extends React.Component {
       "I love it!"
     ];
     return (
-      <div>
+      <div className="box">
         <TypingText text="Hey! I can type myself! Do You like it?" speed="90" />
         <TypingText
           text={manyLines}

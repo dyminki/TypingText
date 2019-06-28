@@ -24,3 +24,7 @@ Give component proper props.
 
 # License
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
+
+# Screenshoot
+
+![Image](https://github.com/dyminki/MemoryGame/blob/master/inf.png)
