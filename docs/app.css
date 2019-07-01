@@ -2,23 +2,25 @@
   font-size: 2rem; }
 
 body {
-  font-family: 'Staatliches', cursive;
-  font-weight: normal;
-  background: #f7f7f7;
-  color: #6e839a;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  background: #60614A;
+  color: #EAEAEA;
   margin: 10% auto;
   text-align: center;
   font-size: 2em; }
 
 .box {
+  text-align: left;
+  padding: 0.8em;
   height: 400px;
   width: 100%;
-  max-width: 560px;
-  min-width: 320px;
+  max-width: 540px;
+  min-width: 240px;
   margin: 0 auto;
-  border-radius: 5%;
-  background-color: #fbfbfb;
-  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.17); }
+  border-radius: 36px;
+  background-color: #2B2B2B;
+  box-shadow: 0 2px 13px 0px rgba(0, 0, 0, 0.5); }
 
 .second-text {
   font-family: Helvetica, sans-serif;
@@ -29,5 +31,16 @@ body {
   body {
     font-size: 1.5em; }
   .box {
-    height: 380px; } }
+    height: 380px;
+    width: 320px;
+    padding: 0.4em; } }
+
+@media all and (max-width: 330px) {
+  body {
+    font-size: 1.3em; }
+  .box {
+    border-radius: 10px;
+    height: 340px;
+    width: 270px;
+    padding: 0.3em; } }
 
