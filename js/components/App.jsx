@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div className="box">
         <div>
-          <TypingText text="Hey! I can type myself! Do You like it?" speed="90" />
+          <TypingText text="Hey! I can type myself! Do you like it?" speed="90" />
         </div>
         <div className="second-text">
           <TypingText
